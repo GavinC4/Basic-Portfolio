@@ -97,17 +97,26 @@ h1, h2, h3, h4 {
 form {
 	color: #777;
 	text-align: left;
-	width: 600px;
+	width: 730px;
 	margin-left: 30px;
 	margin-top: 15px;
 }
 .text-name, .text-email, .text-large {
 	width: 80%;
 	text-align: left;
+
 }
 .text-large {
-	height: 200px;
+	height: 180px;
 	text-align: top;
+}
+.submit {
+	text-align: center;
+	background-color: #4aaaa5;
+	color: #fff;
+	border-color: #4aaaa5;
+	width: 70px;
+	height: 30px;
 }
 .portfolio {
 	position: fixed;
@@ -143,28 +152,28 @@ form {
 }
 .odds, .evens {
 	display: block;
-	position: relative;
-}
-.pic-text {
-	position: fixed;
-	text-align: center;
-	top: 330px;
-	color: #fff;
-	background-color: #4aaaa5;
 }
 .pictures {
 	height: 800px;
 	overflow: scroll;
 }
+.p1 {
+	margin-left: 30px;
+}
 .p1, .p2 {
 	text-align: left;
+	text-indent: 30px;
 	margin-top: 10px;
 	margin-left: 20px;
 	margin-right: 20px;
 	color: #777;
+	font-size: 18px;
 }
 .bio-pic {
 	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .connect {
 	clear: both;
@@ -204,7 +213,6 @@ footer {
 h4 {
 	margin-top: 20px;
 }
-
 
 
 
